@@ -1,0 +1,53 @@
+/* Reglas generales */
+#vitraux {
+    margin-top: 210px;
+}
+#mosaico {
+    margin-top: 105px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.en-stock {
+    border: 4px solid green;
+}
+
+.alta {
+    width: 150px;
+    height: 200px;
+}
+
+.cuadrada {
+    width: 200px;
+    height: 200px;
+}
+
+.ancha {
+    width: 200px;
+    height: 150px;
+}
+
+.especial-a {
+    width: 180px;
+    height: 200px;
+}
+
+.especial-b {
+    width: 200px;
+    height: 180px;
+}
+
+/* Media query */
+@media only screen and (max-width: 767px) {
+    tr {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    img {
+        max-width: 100%;
+    }
+}

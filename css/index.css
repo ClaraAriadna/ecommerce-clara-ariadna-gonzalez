@@ -1,0 +1,52 @@
+/* Reglas generales */
+* {
+     box-sizing: border-box;
+}
+
+:root {
+     font-size: 16px;
+}
+
+body   {
+      background-image: url('../media/img/fondo.jfif');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      font-family: 'MedievalSharp', sans-serif;
+      font-size: 2.5rem;
+      text-align: center;
+}
+
+header {
+     margin-top: 210px;
+}
+
+p {
+     font-size: 2rem;
+}
+
+nav {
+     margin-top: 60px;
+     margin-bottom: 50px;
+     font-size: 20px;
+}
+
+ul {
+     list-style-type: none;
+}
+
+footer > p {
+     font-size: 1rem;
+     font-family: 'Calibri', sans-serif;
+}
+
+.bold {
+     font-weight: bold;
+}
+
+/* Media query */
+@media only screen and (max-width: 767px) {
+     :root {
+          font-size: 12px;
+     }
+}

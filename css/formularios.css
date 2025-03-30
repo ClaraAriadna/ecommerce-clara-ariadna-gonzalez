@@ -1,0 +1,57 @@
+* {
+    font-family: "Calibri", sans-serif;
+    font-size: 24px;
+}
+
+body {
+    background: linear-gradient(to right, rgb(0, 135, 209), rgb(180, 0, 240))
+}
+
+#campos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 5px;
+}
+
+label {
+    grid-column: 1 / 2;
+}
+
+input {
+    grid-column: 2 / 3;
+}
+
+#submit {
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+}
+
+#submit:hover {
+    background-color: purple;
+}
+
+#settings {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+#left-column {
+    grid-column: 1 / 2;
+}
+
+#content {
+    grid-column: 2 / 5;
+}
+
+#visual-contenido {
+    display: none;
+}

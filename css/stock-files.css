@@ -1,0 +1,58 @@
+main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.left-column {
+    grid-column: 1 / 2;
+}
+
+.imagen {
+    padding: 10px;
+    border: 8px dotted blueviolet;
+}
+
+.right-column {
+    grid-column: 2 / 3;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 40px;
+}
+
+.empty {
+    grid-row: 1 / 2;
+    height: 30vh;
+}
+
+/* Reglas generales */
+.descripcion {
+    grid-row: 2 / 3;
+}
+
+.precio {
+    grid-row: 3 / 4;
+}
+
+
+dt {
+    font-weight: 600;
+}
+
+dd {
+    font-weight: 200;
+}
+
+/* Media query */
+@media only screen and (max-width: 767px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
