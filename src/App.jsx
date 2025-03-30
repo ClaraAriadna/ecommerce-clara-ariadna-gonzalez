@@ -1,17 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Navegacion from './components/navegacion';
-import Header from './components/header';
-import Footer from './components/footer';
+import { Routes, Route } from 'react-router-dom';
+import Navegacion from './components/Navegacion';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Presentacion from './components/Presentacion';
 
 function App() {
   return (
-    <Router>
+    <>
       <Header />
       <Navegacion />
+      <Routes>
+        <Route path='/presentacion' element={<Presentacion />} />
+      </Routes>
       <Footer />
-    </Router>
-  )
+    </>
+  );
 }
 
 export default App

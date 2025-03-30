@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import Presentacion from './Presentacion'
 
-export default class Navegacion extends Component {
-  render() {
+function Navegacion() {
     return (
     <>
       <div>
         <nav>
         <ul>
             <li><a href="#header">Inicio</a></li>
-            <li><a href="#presentacion">Presentación</a></li>
+            <li><Link to="/presentacion">Presentación</Link></li>
             <li><a href="galeria.html">Galería de trabajos</a></li>
             <li><a href="videos.html">Videos</a></li>
             <li><a href="https://www.facebook.com/claudiavitraux">Facebook</a></li>
@@ -23,5 +24,6 @@ export default class Navegacion extends Component {
       </div>
     </>
     )
-  }
 }
+
+export default Navegacion;
