@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Configuración - Claudia Vitraux</title>
+    <link rel="shortcut icon" type="image/x-icon" href="media/img/icon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="stylesheet" type="text/css" href="css/formularios.css" />
+    <link rel="preload" as="script" type="text/javascript" href="js/settings.js" />
+</head>
+<body>
+    <h1>Preferencias</h1>
+    <main id="settings">
+        <div id="left-column">
+            <ol>
+                <li><a id="cuenta" href="#">Cuenta</a></li>
+                <li><a id="visual" href="#">Visualización</a></li>
+            </ol>
+        </div>
+        <div id="content">
+            <div id="cuenta-contenido">
+                <h2>Cuenta</h2>
+            </div>
+            <div id="visual-contenido">
+                <h2>Visualización</h2>
+                Color de fondo: <input type="color" id="color" />
+            </div>
+            <button type="button" id="button">Actualizar preferencias</button>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/settings.js">
+    </script>
+</body>
+</html>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Imagen from './Imagen'
 /*
 import ogg from '../../media/audios/presentacion.ogg'
 import mp3 from '../../media/audios/presentacion.mp3'
@@ -12,8 +13,9 @@ export default class Presentacion extends Component {
     <>
       <div>
       <main>
-        <section id="presentacion">
+        <section>
             <h2>Presentación</h2>
+            <Imagen />
             <br />
             <audio controls>
               {/*
