@@ -1,6 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
-import Presentacion from './Presentacion'
 
 function Navegacion() {
     return (
@@ -10,13 +9,13 @@ function Navegacion() {
         <ul>
             <li><a href="#header">Inicio</a></li>
             <li><Link to="/presentacion">Presentación</Link></li>
-            <li><a href="galeria.html">Galería de trabajos</a></li>
-            <li><a href="videos.html">Videos</a></li>
+            <li><Link to="/galeria">Galería de trabajos</Link></li>
+            <li><Link to="/videos">Videos</Link></li>
             <li><a href="https://www.facebook.com/claudiavitraux">Facebook</a></li>
             <li><a href="https://ar.pinterest.com/claudiavitraux">Pinterest</a></li>
-            <li><a href="registro.html">Registrarse</a></li>
-            <li><a href="login.html">Iniciar sesión</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+            <li><Link to="/registro">Registrarse</Link></li>
+            <li><Link to="/login">Iniciar sesión</Link></li>
+            <li><Link to="/contacto">Contacto</Link></li>
             <li><a href="#footer">Pie de página</a></li>
         </ul>
         </nav>
