@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 function Navegacion() {
@@ -7,7 +7,7 @@ function Navegacion() {
       <div>
         <nav>
         <ul>
-            <li><a href="#header">Inicio</a></li>
+            <li><Link to="/">Inicio</Link></li>
             <li><Link to="/presentacion">Presentación</Link></li>
             <li><Link to="/galeria">Galería de trabajos</Link></li>
             <li><Link to="/videos">Videos</Link></li>

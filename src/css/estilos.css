@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: rgba(0, 135, 209, 0.5) !important;
+    background-color: rgba(0, 135, 209, 0.5);
     font-size: 2.5rem;
     text-align: center;
 }

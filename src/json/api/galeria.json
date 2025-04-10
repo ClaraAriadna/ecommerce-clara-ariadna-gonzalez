@@ -1,0 +1,275 @@
+[
+    {
+        "id": 1,
+        "src": "/media/img/colgante flores.jpg",
+        "alt": "colgante de flores",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 2,
+        "src": "/media/img/colgante pajaritos.jpg",
+        "alt": "colgante de pajaritos",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 3,
+        "src": "/media/img/colgante gato.jpeg",
+        "alt": "colgante de gato",
+        "galeria": "vitraux",
+        "enstock": true
+    },
+    {
+        "id": 4,
+        "src": "/media/img/terrario.jpg",
+        "alt": "terrario",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 5,
+        "src": "/media/img/ornamentos navidad.jfif",
+        "alt": "ornamentos navidad",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 6,
+        "src": "/media/img/servilletero.jpg",
+        "alt": "servilletero",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 7,
+        "src": "/media/img/piramide.jpeg",
+        "alt": "pirámide",
+        "galeria": "vitraux",
+        "enstock": true
+    },
+    {
+        "id": 8,
+        "src": "/media/img/colgantes varios.jfif",
+        "alt": "colgantes varios",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 9,
+        "src": "/media/img/fanal.jpg",
+        "alt": "fanal",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 10,
+        "src": "/media/img/fanales.jfif",
+        "alt": "fanales",
+        "galeria": "vitraux",
+        "enstock": true
+    },
+    {
+        "id": 11,
+        "src": "/media/img/arbolito azul.jfif",
+        "alt": "arbolito azul",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 12,
+        "src": "/media/img/cajitas.jfif",
+        "alt": "cajitas",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 13,
+        "src": "/media/img/colgante corazon.jpeg",
+        "alt": "colgante corazon",
+        "galeria": "vitraux",
+        "enstock": true
+    },
+    {
+        "id": 14,
+        "src": "/media/img/colgante mariposa.jfif",
+        "alt": "colgante mariposa",
+        "galeria": "vitraux",
+        "enstock": true
+    },
+    {
+        "id": 15,
+        "src": "/media/img/flores.jpg",
+        "alt": "flores",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 16,
+        "src": "/media/img/lampara azul.jfif",
+        "alt": "lámpara azul",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 17,
+        "src": "/media/img/lampara flores.jfif",
+        "alt": "lámpara flores",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 18,
+        "src": "/media/img/lampara naranja.jfif",
+        "alt": "lámpara naranja",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 19,
+        "src": "/media/img/lechuza.jfif",
+        "alt": "lechuza",
+        "galeria": "vitraux",
+        "enstock": true
+    },
+    {
+        "id": 20,
+        "src": "/media/img/mariposas.jfif",
+        "alt": "mariposas",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 21,
+        "src": "/media/img/mas cajitas.jfif",
+        "alt": "más cajitas",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 22,
+        "src": "/media/img/pajaritos.jpg",
+        "alt": "pajaritos",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 23,
+        "src": "/media/img/tutor flores.jfif",
+        "alt": "tutor flores",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 24,
+        "src": "/media/img/velador.jpg",
+        "alt": "velador",
+        "galeria": "vitraux",
+        "enstock": false
+    },
+    {
+        "id": 25,
+        "src": "/media/img/mosaico 1.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    },
+    {
+        "id": 26,
+        "src": "/media/img/mosaico 2.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    },
+    {
+        "id": 27,
+        "src": "/media/img/mosaico 3.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    },
+    {
+        "id": 28,
+        "src": "/media/img/mosaico 4.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    },
+    {
+        "id": 29,
+        "src": "/media/img/mosaico 5.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    },
+    {
+        "id": 30,
+        "src": "/media/img/mosaico 6.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    },
+    {
+        "id": 31,
+        "src": "/media/img/mosaico 7.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    },
+    {
+        "id": 32,
+        "src": "/media/img/mosaico 8.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    },
+    {
+        "id": 33,
+        "src": "/media/img/mosaico 9.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    },
+    {
+        "id": 34,
+        "src": "/media/img/mosaico 10.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    },
+    {
+        "id": 35,
+        "src": "/media/img/mosaico 11.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    },
+    {
+        "id": 36,
+        "src": "/media/img/mosaico 12.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    },
+    {
+        "id": 37,
+        "src": "/media/img/mosaico 13.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    },
+    {
+        "id": 38,
+        "src": "/media/img/mosaico 14.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    },
+    {
+        "id": 39,
+        "src": "/media/img/mosaico 15.jfif",
+        "alt": "mosaico",
+        "galeria": "mosaico",
+        "enstock": false
+    }
+]

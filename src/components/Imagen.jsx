@@ -1,15 +1,15 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import Fanal from '../../media/img/fanal.jpg';
-import Piramide from '../../media/img/piramide.jpeg';
-import Terrario from '../../media/img/terrario.jpg';
-import Velador from '../../media/img/velador.jpg';
-import '../../css/img.css';
+import Fanal from '/media/img/fanal.jpg'
+import Piramide from '/media/img/piramide.jpeg';
+import Terrario from '/media/img/terrario.jpg';
+import Velador from '/media/img/velador.jpg';
+import '../css/img.css';
 
 const Imagen = () => {
   let imagenes = new Array(Fanal, Piramide, Terrario, Velador);
   const [index, setIndex] = useState(0);
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   // Cambiamos la imagen
   useEffect(() => {
@@ -24,7 +24,7 @@ const Imagen = () => {
       clearInterval(interval);
   }, []);
   return (
-    <img src={imagenes[index]} alt='Esta imagen no puede visualizarse en el navegador' className={`${show ? "show": ""}`}/>
+    <img src={imagenes[index]} alt='Esta imagen no puede visualizarse en el navegador' className={`presentacion ${show ? "show": "hidden"}`} />
   )
 }
 

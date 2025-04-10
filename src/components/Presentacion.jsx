@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Imagen from './Imagen'
+import Navegacion from './Navegacion'
+import '../css/index.css'
 /*
 import ogg from '../../media/audios/presentacion.ogg'
 import mp3 from '../../media/audios/presentacion.mp3'
@@ -11,7 +13,9 @@ export default class Presentacion extends Component {
   render() {
     return (
     <>
-      <div>
+      <div className="index">
+      <h1>Claudia Vitraux</h1>
+      <Navegacion />
       <main>
         <section>
             <h2>Presentación</h2>

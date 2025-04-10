@@ -12,7 +12,7 @@ function clic(destino) {
 
 async function obtenerProductos() {
     try {
-        const response = await fetch("../json/api.json");
+        const response = await fetch("../src/json/api/stock.json");
         if (!response.ok) {
                 throw new Error(`La conexión falló: ${response.status}`);
         }
