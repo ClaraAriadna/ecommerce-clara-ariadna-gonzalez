@@ -1,0 +1,13 @@
+{
+    "name": "Claudia Vitraux",
+    "icon": {
+        "src": "/media/img/icon.ico",
+        "type": "image/x-icon"
+    },
+    "start_url": "/index.html",
+    "background-color": "lightblue",
+    "display": "standalone",
+    "scope": "/",
+    "theme-color": "darkblue",
+    "description": "Objetos en vitraux Tiffany y mosaico"
+}

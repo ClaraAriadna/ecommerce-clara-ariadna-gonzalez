@@ -3,6 +3,7 @@ import imagenes from '../json/api/galeria.json'
 import '../css/galeria.css';
 import '../css/estilos.css';
 import Navegacion from './Navegacion';
+import Footer from './Footer';
 
 export default class Galeria extends Component {
   render() {
@@ -13,10 +14,10 @@ export default class Galeria extends Component {
         <h1>Claudia Vitraux</h1>
         <Navegacion />
         <main>
-        <h1>Galería</h1>
+        <h2>Galería</h2>
         <p>Productos en stock se muestran marcados en verde</p>
         <section>
-           <h2>Vitraux</h2>
+           <h3>Vitraux</h3>
            <p>(click en cada foto para agrandar)</p>
            <div className="vitraux">
            {vitraux.map(function(img) { return (
@@ -27,7 +28,7 @@ export default class Galeria extends Component {
            </div>
             </section>
             <section>
-           <h2>Mosaico</h2>
+           <h3>Mosaico</h3>
            <div className="mosaico">
            {mosaico.map(function(img) { return (
               <div key={img.id} className={`item ${img.enstock ? "en-stock" : ""}`}>
@@ -37,6 +38,7 @@ export default class Galeria extends Component {
            </div>
          </section>
          </main>
+         <Footer />
       </div>
     );
   }

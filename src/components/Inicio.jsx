@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navegacion from './Navegacion';
+import Footer from './Footer';
 import '../css/index.css';
 
 export default class Inicio extends Component {
@@ -13,6 +14,7 @@ export default class Inicio extends Component {
          <p>Se realizan trabajos a pedido. <a href="stock.html">Stock disponible</a></p>
         </header>
         <Navegacion />
+        <Footer />
       </div>
     </>
     )

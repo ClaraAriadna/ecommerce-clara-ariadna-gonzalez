@@ -19,7 +19,6 @@ function Navegacion() {
             <li><a href="#footer">Pie de página</a></li>
         </ul>
         </nav>
-        <hr />
       </div>
     </>
     )

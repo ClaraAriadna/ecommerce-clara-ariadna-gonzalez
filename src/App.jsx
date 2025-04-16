@@ -1,7 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Inicio from './components/Inicio';
-import Footer from './components/Footer';
 import Presentacion from './components/Presentacion';
 import Galeria from './components/Galeria';
 import Videos from './components/Videos';
@@ -24,7 +23,6 @@ function App() {
         <Route path='/contacto' element={<Contacto />} />
         */}
       </Routes>
-      <Footer />
     </>
   );
 }

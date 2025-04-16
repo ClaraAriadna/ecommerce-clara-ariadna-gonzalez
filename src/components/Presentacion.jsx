@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Imagen from './Imagen'
 import Navegacion from './Navegacion'
+import Footer from './Footer'
 import '../css/index.css'
 /*
 import ogg from '../../media/audios/presentacion.ogg'
@@ -32,6 +33,7 @@ export default class Presentacion extends Component {
             </audio>
         </section>
       </main>
+      <Footer />
       </div>
     </>
     )

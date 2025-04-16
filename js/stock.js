@@ -22,7 +22,7 @@ async function obtenerProductos() {
             <tr>
                 <td><a id="${stock[i].id}" href="#"><img src="media/img/${stock[i].imagen}" alt="${stock[i].descripción}" class="stock-img" /></a>
                 <td>${stock[i].descripción}</td>
-                <td>Precio: ${stock[i].precio}</td>
+                <td>${stock[i].precio}</td>
             </tr>
             `
             ventanas.push(stock[i].id);

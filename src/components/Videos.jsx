@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../css/videos.css';
 import '../css/estilos.css';
 import Navegacion from './Navegacion';
+import Footer from './Footer';
 
 export default class Videos extends Component {
   render() {
@@ -24,6 +25,7 @@ export default class Videos extends Component {
         <h1>Videos</h1>
         <Listadevideos />
         </main>
+        <Footer />
       </div>
     );
   }

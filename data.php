@@ -12,7 +12,4 @@ $json = json_encode($data);
 
 file_put_contents('json/data/'.$data['nombre'].'.json', $json);
 
-$pythonScript = '"C:/Users/Clara/Desktop/React/proyecto001/claudiavitraux/python/data.py"';
-exec('cd "C:/Python/Python311"; .\python '.$pythonScript);
-
 ?>
