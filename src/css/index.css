@@ -3,7 +3,7 @@
      box-sizing: border-box;
 }
 
-.index   {
+.index-background  {
       background-image: url('/media/img/fondo.jfif');
       background-repeat: no-repeat;
       background-size: cover;

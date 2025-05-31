@@ -4,11 +4,7 @@ import Inicio from './components/Inicio';
 import Presentacion from './components/Presentacion';
 import Galeria from './components/Galeria';
 import Videos from './components/Videos';
-/*
-import Registro from './components/Registro';
-import Login from './components/Login';
-import Contacto from './components/Contacto';
-*/
+import Stock from './components/Stock';
 
 function App() {
   return (
@@ -18,13 +14,11 @@ function App() {
         <Route path='/presentacion' element={<Presentacion />} />
         <Route path='/galeria' element={<Galeria />} />
         <Route path='/videos' element={<Videos />} />
-        {/*<Route path='/registro' element={<Registro />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/contacto' element={<Contacto />} />
-        */}
+        <Route path='/stock' element={<Stock />} />
       </Routes>
     </>
   );
 }
 
 export default App
+

@@ -1,23 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import Navegacion from './Navegacion';
 import Footer from './Footer';
 import '../css/index.css';
 
-export default class Inicio extends Component {
-  render() {
+const Inicio = () => {
     return (
     <>
-      <div className="index">
+      <div>
         <header>
          <h1>Claudia Vitraux</h1>
          <p>Objetos en vitraux Tiffany y mosaico</p>
-         <p>Se realizan trabajos a pedido. <a href="stock.html">Stock disponible</a></p>
+         <p>Se realizan trabajos a pedido. <Link to="/stock">Stock disponible</Link></p>
         </header>
         <Navegacion />
         <Footer />
       </div>
     </>
-    )
-  }
+  )
 }
 
+export default Inicio;

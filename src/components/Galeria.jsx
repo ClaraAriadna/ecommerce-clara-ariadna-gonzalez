@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import imagenes from '../json/api/galeria.json'
+import imagenes from '/json/api/galeria.json'
 import '../css/galeria.css';
 import '../css/estilos.css';
 import Navegacion from './Navegacion';
