@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import { Link } from 'react-router-dom';
 import Navegacion from './Navegacion';
 import Footer from './Footer';
+import stockData from '../assets/json/api/stock.json';
 import '../css/estilos.css';
 import '../css/stock.css';
 
@@ -9,20 +9,15 @@ const Stock = () => {
     // Consumo de API y apertura de páginas de productos
     const [productos, setProductos] = useState([]);
     useEffect(() => {
-    const obtenerProductos = async () => {
         try {
-            const response = await fetch("/json/api/stock.json");
-            if (!response.ok) {
-                    throw new Error(`La conexión falló: ${response.status}`);
+            const obtenerProductos = async () => {
+                setProductos(stockData);
             }
-            const data = await response.json();
-            setProductos(data);
+            obtenerProductos();
         } catch (error) {
             alert("Error al obtener productos:", error.message);
         }
-    };
-    obtenerProductos();
-}, []);
+    }, []);
 
     return (
         <>
@@ -41,18 +36,13 @@ const Stock = () => {
                     {productos.map((producto) => (
                         <tr key={producto.id}>
                             <td>
-                                <Link to={`/${producto.id}`}><img src={`/media/img/${producto.imagen}`} alt={producto.descripcion}/></Link>
+                                <img src={`/media/img/${producto.imagen}`} alt={producto.descripcion} width={200} height="auto"/>
                             </td>
                             <td>{producto.descripcion}</td>
                             <td>{producto.precio}</td>
                         </tr>
                     ))}
                 </tbody>
-                <tfoot>
-                    <tr>
-                        <td colSpan="3"><span className="small">(clic en la imagen para ver más detalles)</span></td>
-                    </tr>
-                </tfoot>
             </table>
             <Footer />
           </div>

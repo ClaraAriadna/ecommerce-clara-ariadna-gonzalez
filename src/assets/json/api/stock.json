@@ -2,37 +2,37 @@
     {
         "id": "lechuza",
         "imagen": "lechuza.jfif",
-        "descripción": "Lechuza",
+        "descripcion": "Lechuza",
         "precio": "-"
     },
     {
         "id": "colgante_mariposa",
         "imagen": "colgante mariposa.jfif",
-        "descripción": "Colgante de mariposa",
+        "descripcion": "Colgante de mariposa",
         "precio": "-"
     },
     {
         "id": "fanales",
         "imagen": "fanales.jfif",
-        "descripción": "Fanales",
+        "descripcion": "Fanales",
         "precio": "-"
     },
     {
         "id": "piramide",
         "imagen": "piramide.jpeg",
-        "descripción": "Pirámide",
+        "descripcion": "Pirámide",
         "precio": "-"
     },
     {
         "id": "colgante_corazon",
         "imagen": "colgante corazon.jpeg",
-        "descripción": "Colgante de corazón",
+        "descripcion": "Colgante de corazón",
         "precio": "-"
     },
     {
         "id": "colgante_gato",
         "imagen": "colgante gato.jpeg",
-        "descripción": "Colgante de gato",
+        "descripcion": "Colgante de gato",
         "precio": "-"
     }
 ]
